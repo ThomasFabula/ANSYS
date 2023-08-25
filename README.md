@@ -1,6 +1,7 @@
 # ANSYS
 ANSYS finite-element program system 
-- various documents   
+- various documents
+- historic trivia
 
 ## ANSYS
 - https://www.ansys.com/de-de
