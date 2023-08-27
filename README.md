@@ -5,6 +5,7 @@ ANSYS finite-element program system
 
 ## ANSYS
 - https://www.ansys.com/de-de
+- https://en.wikipedia.org/wiki/Ansys
 - https://de.wikipedia.org/wiki/Ansys_(Software)
   
 ## Further information
