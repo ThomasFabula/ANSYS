@@ -1,9 +1,9 @@
 # ANSYS
-ANSYS finite-element program system 
+ANSYS (=ANalysis SYStem) finite-element program system 
 - various documents
 - historic trivia
 
-## ANSYS
+## ANSYS FEA
 - https://www.ansys.com/de-de
 - https://en.wikipedia.org/wiki/Ansys
 - https://de.wikipedia.org/wiki/Ansys_(Software)
