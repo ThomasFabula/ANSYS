@@ -11,3 +11,4 @@ ANSYS (=ANalysis SYStem) finite-element program system
 ## Further information
 - https://tfconsult.com/tag/ansys/
 - https://tfconsult.com/tag/fem/
+- https://tfconsult.com/cad-fem-kopplung/
