@@ -4,6 +4,7 @@ ANSYS (=ANalysis SYStem) finite-element program system
 - historic trivia
 
 ## ANSYS FEA
+Finite Element Analysis:  
 - https://www.ansys.com/de-de
 - https://en.wikipedia.org/wiki/Ansys
 - https://de.wikipedia.org/wiki/Ansys_(Software)
