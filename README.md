@@ -15,3 +15,4 @@ FEA simulation on MEMS sensor devices:
 - https://tfconsult.com/tag/fem/
 - https://tfconsult.com/tag/multiphysics/
 - https://tfconsult.com/cad-fem-kopplung/
+- https://tfconsult.com/cad-tools-for-mems/
