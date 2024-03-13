@@ -19,18 +19,18 @@ von etwa 20 MB auf der Festplatte an.
 Die beiden Rechner waren wie folgt konfiguriert:
 
 HP Vectra 486:
-Prozessor:			        Intel-80486 / 25 MHz
-Arbeitsspeicher:		    2 MB
+Prozessor:			Intel-80486 / 25 MHz
+Arbeitsspeicher:		2 MB
 Swap-Bereich:		        ca. 20 MB (durch ANSYS verwaltet)
 Festplattenkapazität:		150 MB
-Betriebssystem:		      MS-DOS 3.3
+Betriebssystem:		      	MS-DOS 3.3
 
 DECstation 3100:
-Prozessor:			        MIPS-R2000 / 16.67 MHz
-Arbeitsspeicher:		    16 MB
+Prozessor:			MIPS-R2000 / 16.67 MHz
+Arbeitsspeicher:		16 MB
 Swap-Bereich:		        130 MB
 Festplattenkapazität:		990 MB
-Betriebssystem:		      DEC-ULTRIX 3.0, DEC-Windows (X11)
+Betriebssystem:		      	DEC-ULTRIX 3.0, DEC-Windows (X11)
 
 Es wurden zwei Finite-Elemente Modelle erstellt und auf beiden Rechner durchgerechnet. 
 Das dynamische FE-Modell mit 300 Freiheitsgraden stieß bereits an die Speicherkapazität der 
@@ -40,29 +40,30 @@ mit 4 MB Arbeistspeicher trat dieses Problem nicht mehr auf.
 
 
 1.) statisches FE-Modell:
-Problem:		      Berechnung der Durchbiegung und des Spannungszustandes einer quadratischen Platte
-Elementtyp:		    4-knotiges 2D-Schalenelement (STIF63)
+Problem:		Berechnung der Durchbiegung und des Spannungszustandes einer quadratischen Platte
+Elementtyp:		4-knotiges 2D-Schalenelement (STIF63)
 Anzahl Elemente:	400
-Anzahl Knoten:	  441
-RMS-Wavefront:	  121.8
-Rechenzeit:		    144.2 sec (HP Vectra 486)
-			            58.8 sec (DECstation 3100)
+Anzahl Knoten:	  	441
+RMS-Wavefront:	  	121.8
+Rechenzeit:		144.2 sec (HP Vectra 486)
+			58.8 sec (DECstation 3100)
 Faktor:		        2.45
 
 
 2.) dynamisches FE-Modell:
-Problem:		      Berechnung der Eigenfrequenzen und Schwingungsformen einer Doppelstimmgabel
-Elementtyp:		    8-knotiges 2D-Plattenelement (STIF82)
+Problem:		Berechnung der Eigenfrequenzen und Schwingungsformen einer Doppelstimmgabel
+Elementtyp:		8-knotiges 2D-Plattenelement (STIF82)
 Anzahl Elemente:	283
-Anzahl Knoten:	  1033
-Freiheitsgrade:	  50 / 100 / 300 (MDOF)
-RMS-Wavefront:	  32.2 / 110.9 / 302.5
+Anzahl Knoten:	  	1033
+Freiheitsgrade:	  	50 / 100 / 300 (MDOF)
+RMS-Wavefront:	  	32.2 / 110.9 / 302.5
 Rechenzeit:    		135 / 161 / 1357 sec (HP Vectra 486)
-			            26 /  53 /  446 sec (DECstation 3100)
+			26 /  53 /  446 sec (DECstation 3100)
 Faktor:		        5.19 / 3.04 / 30.43
   
 
-Ergebnis:	In der untersuchten Konfiguration beider Rechner ist die DECstation 3100 mindestens um den 
+Ergebnis:	
+In der untersuchten Konfiguration beider Rechner ist die DECstation 3100 mindestens um den 
 Faktor 3 schneller als die HP Vectra 486.
 
 Die relativen Leistungsfähigkeiten der untersuchten Rechner lassen sich nach dem ANSYS-Benchmark in 
@@ -70,11 +71,11 @@ folgender Tabelle zusammenfassen, wenn man die Floating-Point-Leistung der DECst
 wie von DEC spezifiziert zugrunde legt:
 
 
-Rechnertyp		    MFLOPS  	  relative Leistung
+Rechnertyp		MFLOPS  	 relative Leistung
 ══════════════════════════════════════════════════
-DECstation 3100	   2.4			      6 
-HP Vectra 486	     0.8			      3
-HP Vectra RS/20	   0.3			      1
+DECstation 3100	   	2.4			6 
+HP Vectra 486	     	0.8			3
+HP Vectra RS/20	   	0.3			1
 ══════════════════════════════════════════════════
 
 
