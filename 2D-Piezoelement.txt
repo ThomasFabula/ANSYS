@@ -1,0 +1,23 @@
+Hahn-Schickard Gesellschaft für Angewandte Forschung e.V.
+Forschungsinstitut für Mikro- und Informationstechnik
+7730 VS-Villingen, Roggenbachstraße 6
+
+
+Entwicklung eines 2D-Piezoelementes
+
+Das kommerzielle Finite-Elemente Programm ANSYS, Fa. SASI (USA), bietet neben statischen und dynamischen Strukturberechnungen 
+die Möglichkeit gekopppelte Feldberechnungen (thermisch induzierter Stress, elektro-magnetische Berechnungen, etc.) durchzuführen. 
+Mit den zur Zeit im Programm zur Verfügung stehenden dreidimensionalen Multi-Field Elementen ist es auch möglich piezoelektrische 
+Effekte zu modellieren. 
+
+Auf der Grundlage des 8-knotigen 3D-Piezoelementes (STIF5), das im FORTRAN-Quelltext zur Verfügung gestellt wird, soll ein 
+ebenes, piezoelektrisches Element erstellt werden, das es gestattet eine Vielzahl von mikromechanischen Problemstellungen,
+bei reduziertem Rechenaufwand, zweidimensional zu modellieren.
+
+Im Rahmen einer Diplomarbeit soll die Entwicklung, die Implementation und die Validierung des 2D-Elementes unter Anleitung 
+des Forschungsinstituts für Mikro- und Informationstechnik/VS in enger Zusammenarbeit mit der Fa. Siemens/München erfolgen. 
+
+Die zur Programmentwicklung notwendige Rechner-Hardware DEC-Workstation DS3100 (ULTRIX) und PC-386 (MS-DOS) sowie die 
+FEM-Software (ANSYS Version 4.4, full version) steht im Villinger Institut zur Verfügung. Die Verifikation der FEM-Berechnungen 
+kann anhand experimenteller Meßdaten erfolgen.
+
