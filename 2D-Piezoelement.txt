@@ -1,6 +1,6 @@
 Hahn-Schickard Gesellschaft für Angewandte Forschung e.V.
 Forschungsinstitut für Mikro- und Informationstechnik
-7730 VS-Villingen, Roggenbachstraße 6
+D-7730 VS-Villingen, Roggenbachstraße 6
 
 
 Entwicklung eines 2D-Piezoelementes
