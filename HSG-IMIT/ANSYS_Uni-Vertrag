@@ -1,0 +1,70 @@
+Bericht zum ANSYS-Universitätsvertrag
+			
+
+Berichtszeitraum:	1989-90
+Lizenznehmer:		
+Hahn-Schickard-Institut für Mikro- und Informationstechnik
+D-7730 VS-Villingen
+
+Programmversion:	ANSYS 4.4 (full version)
+Rechnerplattform:	PC386 (HP Vectra RS/20)
+
+
+
+Im Hahn-Schickard-Forschungsinstitut wird das FEM-Programmsystem ANSYS als Entwicklungswerkzeug für den Entwurf 
+von Mikrosystemen eingesetzt. Neben dem Studium der Methode der Finite-Elemente sollen mit der Universitäts-Version 
+einfache Problemstellungen angegangen werden und ein schnelles Einarbeiten der Studenten und wissenschaftlichen 
+Mitarbeiter gewährleistet werden. 
+
+Im Vordergrund stehen statische (KAN=0) und dynamische (KAN=2, KAN=6) Berechnungen an einfachen Sensor- und 
+Atuatorstrukturen der Mikromechanik, die allerdings z.B. die Berücksichtigung anisotropen Materialverhaltens
+(STIF5, 64, 98) voraussetzen. 
+
+Die in der Mikromechanik eingesetzten Grundmaterialien sind im wesentlichen Silizium und Siliziumverbindungen 
+(SiO2, Si3N4, etc.) sowie einkristallines Quarz. Die zur Modellierung benötigten Materialdaten (Elastizitätskoeffizienten, 
+piezoelektrische Konstanten, etc.) werden zusammengetragen und in einer EDV-gestützten Datenbank zur späteren 
+Kopplung mit dem ANSYS-Programm abgelegt.
+
+Im Bereich der Mikrotechnik kommt der Berechnung von gekoppelten Feldgleichungen eine bedeutende Rolle zu. 
+Sensoren/Aktoren werden bspw. thermisch, elektrostatisch oder piezoelektrisch ausgelesen/angeregt, sodaß 
+die Kopplung verschiedener Felder (Wärme-Struktur, Elektro-Magnetismus, Piezoelektrizität) mit berücksichtigt 
+werden muß. Hier legt die '500er-Wavefront' dem Benutzer allerdings schnell eine Beschränkung auf, sodaß 
+lediglich die prinzipielle Vorgehensweise studiert werden kann. Die quantitativen Berechnungsläufe mit einer 
+erhöhten Anzahl von Elementen, Freiheitsgraden, Iterationen, etc. sind der im Hause verwendeten 
+ANSYS-Workstationversion (DECstation 3100) vorbehalten.
+
+Als einfache Beispiele sind (siehe Anhang) die Ergebnisse der Berechnung eines Silizium-Drucksensors und 
+eines resonanten Quarz-Kraftsensors aufgeführt. Es wurden verschiedene FEM-Berechnungen durchgeführt und 
+die Ergebnisse mit theoretischen und experimentellen Angaben verglichen. Im Rahmen der Modellannahmen 
+stimmen die FEM-Rechnungen sehr gut mit den experimentellen Messungen überein.
+
+Bei den statischen Berechnungen des Silizium-Drucksensors ist der Einfluß der Strukturgeometrie auf die 
+Durchbiegung und den Spannungszustand der Silizium-Membran von Interesse. Die Verhältnisse können Aufschluß
+über die Anordnung der piezoresistiven Bauelemente oder über die Elektrodenformen bei elektrostatischer 
+Auslesung geben. Bei den dynamischen Rechnungen sind die Eigenfrequenzen und Eigenschwingungsformen (Modalanalyse) 
+sowie die Kraft-Frequenz-Kennlinie (Kraftempfindlichkeit) des Kraftsensors von Interesse. 
+
+Bei den Berechnungen wurden verschieden komplexe FE-Modelle erstellt, in denen die Elementvernetzung, 
+die Randbedingungen und die Materialparameter variiert wurden, um den Einfluß der Modellparameter zu 
+studieren. Zur Vereinfachung der Rechnungen und Einsparung von Rechenzeit, wurden zweidimensionale Modelle
+mit isotropen Materialverhalten gewählt.
+
+Abhängig von der Geometrie des Kraftsensors ergaben sich wie erwartet verschiedene Eigenschwingungsformen. 
+Im Eigenschwingungsmode, in dem die Doppelstimmgabel als Kraftsensor betrieben wird, schwingen die 
+Stimmgabelstege phasenversetzt gegeneinander, sodaß keine Kraftmomente auf die Befestigungen übertragen 
+werden.
+Bei der Ermittlung der Eigenfrequenzen des Kraftsensors konnte trotz der Einfachheit des FE-Modells eine
+gute Übereinstimmung (Abweichung: ca. 2%) mit den gemessenen Werten erzielt werden.
+
+Bei der Berechnung der Kraft-Frequenz-Kennlinie wurde der Sensor sukzessive mit einer axialen Zugkraft 
+beaufschlagt (KAN=0) und anschließend die Eigenfrequenzen des vorgespannten Systems (/FREQ-Lauf) ermittelt.
+Der lineare Verlauf der Eigenfrequenzänderung (siehe Anhang) konnte gezeigt werden. 
+
+
+
+Th.Fabula
+07/2990
+
+
+
+Anlage:	Kopien des Postervortrags, MICROSYSTEM 90
