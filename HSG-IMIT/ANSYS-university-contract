@@ -1,0 +1,69 @@
+Report on the ANSYS university contract
+			
+
+Reporting period: 1989-90
+Licensee:		
+Hahn-Schickard-Institute for Micro- and Information Technology
+D-7730 VS-Villingen
+
+Program version: ANSYS 4.4 (full version)
+Computer platform: PC386 (HP Vectra RS/20)
+
+
+
+The Hahn-Schickard Research Institute uses the FEM program system ANSYS as a development tool for the design of microsystems.
+In addition to studying the finite element method, the university version is used to tackle simple problems and to ensure 
+that students and scientific and scientific staff. 
+
+The focus is on static (KAN=0) and dynamic (KAN=2, KAN=6) calculations on simple sensor and actuator structures of micromechanics, 
+which, however, require the consideration of e.g. anisotropic material behavior
+(STIF5, 64, 98), for example. 
+
+The basic materials used in micromechanics are essentially silicon and silicon compounds 
+(SiO2, Si3N4, etc.) and monocrystalline quartz. The material data required for modeling 
+(elasticity coefficients, piezoelectric constants, etc.) are compiled and stored in a 
+computerized database for later coupling with the ANSYS program. 
+database for later coupling with the ANSYS program.
+
+In the field of microtechnology, the calculation of coupled field equations plays an important role. 
+Sensors/actuators are, for example, read out/excited thermally, electrostatically or piezoelectrically, so that 
+the coupling of different fields (thermal structure, electro-magnetism, piezoelectricity) must be taken into account. 
+Here, however, the '500 wavefront' quickly imposes a limitation on the user, so that 
+only the basic procedure can be studied. The quantitative calculation runs with an 
+number of elements, degrees of freedom, iterations, etc., are not available in the 
+ANSYS workstation version (DECstation 3100).
+
+Simple examples (see appendix) are the results of the calculation of a silicon pressure sensor and a 
+of resonant quartz force sensor. Various FEM calculations were carried out and the results were
+compared with theoretical and experimental data. Within the framework of the model assumptions 
+the FEM calculations agree very well with the experimental measurements.
+
+In the static calculations of the silicon pressure sensor, the influence of the structural geometry on the deflection 
+deflection and the stress state of the silicon diaphragm is of interest. The ratios can provide information
+about the arrangement of the piezoresistive components or about the electrode shapes for electrostatic 
+readout. In the dynamic calculations, the natural frequencies and natural modes of vibration (modal analysis) 
+and the force-frequency characteristic (force sensitivity) of the force sensor are of interest. 
+
+Various complex FE models were created for the calculations, in which the element meshing 
+conditions and material parameters were varied in order to study the influence of the model parameters. 
+To simplify the calculations and save computing time, two-dimensional models with isotropic 
+material behavior were chosen.
+
+Depending on the geometry of the force sensor, different natural vibration modes were obtained as expected. 
+In the natural oscillation mode, in which the double tuning fork is operated as a force sensor, the 
+tuning fork webs vibrate out of phase against each other, so that no force torques are  transmitted to the mountings.
+When determining the natural frequencies of the force sensor, despite the simplicity of the FE model, good agreement 
+(deviation:  good agreement approx. 2%) with the measured values could be achieved.
+
+When calculating the force-frequency characteristic curve, the sensor was successively subjected to an axial 
+tensile force (KAN=0) and then the natural frequencies of the preloaded system (/FREQ run) were determined.
+The linear progression of the natural frequency change (see appendix) was demonstrated. 
+
+
+
+Th.Fabula
+07/1990
+
+
+
+Appendix: Copies of the poster presentation, MICROSYSTEM 90
