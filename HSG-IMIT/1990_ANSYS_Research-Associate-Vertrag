@@ -1,0 +1,51 @@
+	Bericht zum ANSYS 'Research-Associate-Vertrag'
+
+	Berichtszeitraum:	1. Halbjahr 1990
+	Lizenznehmer:		Hahn-Schickard-Institut für 
+					Mikro- und Informationstechnik
+					D-7730 VS-Villingen
+	Programmversion:	ANSYS 4.4
+	Rechnerplattform:	DECstation 3100
+
+
+Allgemeines:
+Das FEM-Programmsystem ANSYS wird neben einer Universitätslizenz auf PC386-Rechnerbasis als Workstation-Version zur 
+Berechnung komplexer FE-Modelle eingesetzt. Die etwa 6-10 fache Geschwindigkeitssteigerung und der erhöhte Wavefrontumfang 
+(z.Zt. 4000 bei 130 MB ULTRIX-Swapspace, 16 MB Arbeitsspeicher) erlauben die Modellierung besonders großer Problemstellungen.
+
+Im Bereich der Mikrotechnik, im speziellen der Sensorik, gilt es FE-Modelle mit folgenden Eigenschaften zu bearbeiten:
+
+1.)	Anisotropes Materialverhalten der Kristalle (Berücksichtigung der Elastizitätskoeffizienten- und piezoelektrischen Matrix)
+
+2.)	Nichtlineares Modellverhalten, das iterative Rechnungsläufe bedingt (Temperatureinfluß, Struktur-Nichtlinearität, etc.)
+
+3.)	Berücksichtigung der dreidimensionalen Struktur aufgrund der durch den anisotropen Ätzvorgang erzeugten Sensorgeometrie
+
+4.)	Berücksichtigung der Kopplung verschiedener Felder, im besonderen der Piezoelektrizität zur Anregung resonanter Strukturen sowie der bei mikrotechnischen Herstellungsprozeßen entstehende wärmeinduzierte Streß
+
+Strukturoptimierung:
+Die hohe Leistungsfähigkeit der Workstationversion erlaubt die Optimierung von Strukturen bezüglich ihres statischen und 
+dynamischen Verhaltens innerhalb eines vertretbaren Zeitrahmens. Aufgrund von Geometrieparameteränderungen wurden im
+Berichtszeitraum resonante Kraftsensoren auf Stimmgabel- und Doppelstimmgabelbasis untersucht. In Abhängigkeit der 
+Strukturierung der Stimmgabelbefestigung (Schwingungsentkopplung) konnte eine Verbesserung der Schwingungseigenschaften
+(Güte, Unimodalität, Empfindlichkeit) der Resonatoren nachgewiesen werden und somit zur dynamischen Strukturoptimierung 
+beigetragen werden. Die Verbesserung der statischen Eigenschaften, die Minimierung von Spannungsspitzen und Scherkräften, 
+konnte ebenfalls gezeigt werden.
+
+Analyseverfahren:
+Neben den statischen Berechnungen (KAN=0), in denen die mikromechanischen Strukturen (Membranen, Zungen, Stimmgabeln)
+unter Druck- bzw. Kraftbeaufschlagung betrachtet werden, wurden folgende dynamische Analysen durchgeführt:
+	- Modalanalyse (Housholder, Subspace-Iteration)
+	- Modalanalyse mit Steifigkeitsänderung infolge Vorspanung
+	- resonante, mechanische Anregung (KAN=6)
+Es hat sich als sinnvoll erwiesen, obige Strukturoptimierung mit vereinfachten FE-Modellen (isotrope 2D-Elemente, 
+geringe Anzahl von Freiheitsgraden) durchzuführen, um bspw. den Arbeitspunkt der Sensoren grob festzulegen. Die 
+'Feinoptimierung' der so abgeleiteten Strukturen erfolgt anschließend mit aufwendigeren Modellen.
+
+Piezoelektrische Untersuchungen:
+Erste piezoelektrische Rechnungen (KAN=2, KAN=6) wurden anhand einfacher Strukturgeometrien auf Quarzbasis durchgeführt. 
+Eine Einarbeitung erfolgte an verifizierbaren Beispielen, bei denen die Resonanz- (Anti- und Parallelresonanz) und 
+Impedanzverläufe bestimmt wurden.
+
+
+Th.Fabula
