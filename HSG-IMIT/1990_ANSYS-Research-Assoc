@@ -1,0 +1,60 @@
+	ANSYS 'Research-associate license agreement'
+
+	Report:			    I. / 1990
+	Licensee:	      Hahn-Schickard-Institut für Mikro- und Informationstechnik (prior FFMU e.V.)
+					        Roggenbachstraße 6, D-7730 VS-Villingen
+	Agreement no.:	08424
+	Programversion:	ANSYS 4.4
+	Computer:			  DECstation 3100, ULTRIX 3.0
+
+
+
+General:
+Besides a PC-386 university version the Hahn-Schickard-Institut uses the ANSYS Workstation 
+version for solving large FE-problems. The current installation on the DECstation (4000 wavefront, 
+130 MB swapspace, 16 MB RAM) runs approximately 6-10 times faster then on a PC-386.
+
+
+In the field of microtechnics (sensor and actuator design) the following problems are especially 
+to be considered:
+
+1.)	anisotropic elastic behaviour of crystalline materials like silicon, etc.
+
+2.)	piezoelectric excitation of resonant quartz transducers
+
+3.)	iterative computing of nonlinear FE-models due to temperature influence and structure nonlinearities
+
+3.)	modelling of 3D-structures due to the anisotropic processing effects (etching) on the sensor geometries
+
+4.)	coupling of fields: thermal induced stress, piezoelectric and electrostatic coupling
+
+Optimizing of structures:
+We used the workstation version to calculate different FE-models by changing geometry parameters
+in order to optimize the static and dynamic behaviour. Improving the dynamic behaviour 
+(linearity, sensitivity and unimodality of the force-frequency-characteristic) of resonant 
+force transducers could be achieved by selective changing the resonant beams geometry, the mount
+geometry and the flexural vibration isolation structures. Also the static behavior of the 
+whole sensor could be improved by selecting a proper force application in order to keep 
+internal stresses low.
+
+
+Analysis procedures:
+Besides static analysis (KAN=0) of micromechanical structures (e.g. membranes, beams, cantilevers)
+with pressure and force loading we examined mainly following dynamic problems:
+
+	- modal analysis (KAN=2: Householder, Subspace-Iteration)
+	- modal analysis with stress stiffening (/FREQ)
+	- resonant mechanical excitation of microstructures (KAN=6)
+
+The above mentioned analyses turned out to be efficient by using relative simple FE-models
+(e.g. isotropic 2D-elements, few master degrees of freedom) to calculate the dynamic behaviour
+and the coarse operating point of the sensor. The 'optimal' operating point of the sensor could 
+be achieved by using larger and more complex models. 
+
+
+Piezoelectric analysis:
+First piezoelectric calculations (KAN=2, KAN=6) were carried out on simple sensor geometries 
+on the basis of quartz. We choosed a known problem to verify the computing results by comparison
+with experimental and literature data.
+
+Th.Fabula
