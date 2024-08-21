@@ -17,6 +17,7 @@ FEA simulation of MEMS sensor devices:
 - https://tfconsult.com/cad-fem-kopplung/
 - https://tfconsult.com/cad-tools-for-mems/
 - https://tfconsult.com/resonant-microsensors/
+- https://tfconsult.com/microsystems-modeling/
 - https://tfconsult.com/fe-modeling-of-resonant-sensors/
 - https://tfconsult.com/fe-modellierung-resonanter-sensoren/
 - https://tfconsult.com/methode-der-finiten-elemente/
