@@ -1,0 +1,20 @@
+ANSYS-Benchmarks
+
+Vergleich der Rechenleistung verschiedener Rechnerkategorien (Workstations, Supercomputer) 
+unter dem Betriebssystem UNIX:
+
+
+DS3100	DS5200	        HP710      HP730     CRAY-YMP
+                        DS5240     RS550	
+----------------------------------------------------------
+1.0	     1.7	           3.9	     6.3	     13.3
+ -	     1.0	           2.3	     3.7	     7.8
+ -	     -	             1.0	     1.6	     3.4
+ Integer-Leistung:	     58 MIPS	 77 MIPS	   -
+ Floating-Point (DP):	   12 MFLOPS 24 MFLOPS	 -
+----------------------------------------------------------
+
+
+Benchmarks mit freundlicher Genehmigung der CADFEM GmbH, Ebersberg
+(gemittelte Leistungswerte der Benchmark-Beispiele SP-1 bis SP-5)
+
