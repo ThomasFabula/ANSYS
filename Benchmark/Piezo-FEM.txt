@@ -1,0 +1,24 @@
+
+Rechenaufwand: piezoelektrische Anregung
+
+
+Beispiel:
+Berechnung des frequenzabhängigen Impedanz- und Phasenverlaufs einer Silizium-Bimorph-Struktur infolge 
+harmonischer elektrischer Anregung an der PZT-Piezokeramik. Berücksichtigung des anisotropes Materialverhaltens 
+der Piezokeramik (siehe Vortrag 8) 
+
+
+FE-Analyse:
+lineare, transiente Berechnung mit harmonischer piezoelektrischer Anregung (KAN=6) einer Silizium-Bimorphstruktur
+
+
+Berechnungslauf:
+(DECstation 3100, 24 MB RAM, 130 MB swap/paging space)
+
+	● Anzahl Iterationen:		  400 (Δf = 250 Hz)
+	● Rechenzeit (CP-time):		8 std
+	● Plattenspeicherbedarf:	260 MB (temporär)
+	● Anzahl Elemente:		    200 (3D-Volumen)
+	● Anzahl Knoten:		      363
+	● Anzahl MDOFs:		        300 (UX, UY, UZ, VOLT)
+	● max. in-core wavefront:	411
