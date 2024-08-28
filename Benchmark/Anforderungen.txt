@@ -1,0 +1,29 @@
+Anforderungen
+
+
+Hardwareanforderungen:
+- Window-System (UNIX: X.11)
+- echtes Multitasking (FEM: batch/interaktiv, Editor)
+- zumindest Betriebssystem-Aufruf (ANSYS: /SYS,command)
+
+Softwareanforderungen:
+- Aufwärtskompatibilität (PC => Workstation => Supercomputer)
+- Aufruf externer Solver (z.B. Fluiddynamik)
+- Dateihandling (temporäre Dateien: FILEnn.DAT)
+- flexible Lizenzkonditionen (Kauf, Miete, CP-Time, projektbezogen)
+- Programmerweiterungen (z.B. Entwicklung von Elementen)
+- Schulung / Support / Anwendertreffen ...
+
+Netzwerkbetrieb:
+- verteiltes Rechnen möglich
+- Plattenmitbenutzung (NFS: mount)
+- Verbindung heterogener Architekturen (PCs, UNIX-Rechner)
+- Lizensierung sehr flexibel (NFS: n Tasks auf m CPUs)
+- Print-, Plot-Serving über zentralen Fileserver
+- Backup-Organisation (incremental backup)
+
+  Nachteile: 
+	=> erhöhte Kosten
+	=> Mehraufwand, da Operator erforderlich
+
+
