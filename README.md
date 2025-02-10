@@ -1,5 +1,5 @@
 # ANSYS
-ANSYS (=ANalysis SYStem) finite-element method (FEM) program system by John A. Swanson:
+ANSYS (=ANalysis SYStem) finite-element method (FEM) program system by John A. Swanson (phD):
 - https://en.wikipedia.org/wiki/John_A._Swanson
 - various documents
 - historic trivia
