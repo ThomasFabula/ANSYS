@@ -5,7 +5,8 @@ ANSYS (=ANalysis SYStem) finite-element method (FEM) program system, developed b
 - historic trivia
 
 ## History
-Origins
+taken from: https://en.wikipedia.org/wiki/Ansys
+### Origins
 Ansys was founded in 1970 as Swanson Analysis Systems, Inc. (SASI) by John Swanson. The idea for Ansys was first conceived by Swanson while working at the Westinghouse Astronuclear Laboratory in the 1960s.[2] At the time, engineers performed finite element analysis (FEA) by hand.[2] Westinghouse rejected Swanson's idea to automate FEA by developing general purpose engineering software, so Swanson left the company in 1969 to develop the software on his own.[2] He founded SASI the next year, working out of his farmhouse in Pittsburgh.[3][4]
 
 ## ANSYS FEA
