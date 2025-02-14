@@ -44,7 +44,6 @@ Finite Element Analysis (FEA) system ANSYS:
 - https://www.ansys.com/de-de
 - https://en.wikipedia.org/wiki/Ansys
 - https://de.wikipedia.org/wiki/Ansys_(Software)
-- https://en.wikipedia.org/wiki/Ansys
   
 ## Further information
 FEA simulation of MEMS sensor devices:
