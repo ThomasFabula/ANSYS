@@ -59,3 +59,9 @@ FEA simulation of MEMS sensor devices:
 - https://tfconsult.com/methode-der-finiten-elemente/
 - https://tfconsult.com/finite-element-system-ansys/
   
+## CADFEm related
+- https://tfconsult.com/cadfem-conference/
+- https://www.youtube.com/@ThomasFabula
+- https://tfconsult.com/cae-forum-systemsimulation/
+- https://tfconsult.com/ansys-conference-cadfem-users-meeting/
+  
