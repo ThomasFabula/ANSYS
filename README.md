@@ -64,4 +64,5 @@ FEA simulation of MEMS sensor devices:
 - https://www.youtube.com/@ThomasFabula
 - https://tfconsult.com/cae-forum-systemsimulation/
 - https://tfconsult.com/ansys-conference-cadfem-users-meeting/
+- https://tfconsult.com/ansys-users-meeting/
   
